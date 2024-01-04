@@ -1,0 +1,33 @@
+.countainer{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "sidebar content"
+    "footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: brown;
+}
+
+nav{
+    grid-area: nav;
+    background-color: aqua;
+}
+
+aside{
+    grid-area: sidebar;
+    background-color: blueviolet;
+}
+
+.content{
+    grid-area: content;
+    background-color: rgb(160, 160, 160);
+}
+
+footer{
+    grid-area: footer;
+    background-color: cadetblue;
+}

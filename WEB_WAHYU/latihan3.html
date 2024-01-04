@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pendaftaran osis</title>
+    </head>
+    <body>
+        <h1>pendaftaran osis</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="nis">NIS</label></td>
+                    <td><input type="number" name="" 
+                        id="nis" placeholder="input nis"></td>
+                </tr>
+                <tr>
+                    <td><label for="nama"></label>nama</td>
+                    <td><input type="text" name="nama" id="nama" 
+                        placeholder="input nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="tmplahir">tempat lahir</label></td>
+                    <td><select name="tmplahir" id="tmplahir">
+                        <option value="semaang">semarang</option>
+                        <option value="jakarta">jakarta</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="tgllahir">tanggal lahir</label></td>
+                    <td><input type="date" name="tgllahir" 
+                        id="tgllahir"></td>
+                </tr>
+                <tr>
+                    <td>jenis kelamin</td>
+                    <td><input type="radio" name="jeniskelamin" 
+                        id="laki-laki"
+                        value="laki-laki">
+                        <label for="laki-laki">laki-laki</label>
+                        <input type="radio" name="jeniskelamin" 
+                        id="perempuan"
+                        value="perempuan"> 
+                        <label for="perempuan">perempuan</label>
+                    </td>                      
+                </tr>
+                <tr>
+                    <td>hoby</td>
+                    <td><input type="checkbox" name="hoby" 
+                        id="membaca"
+                        value="membaca">
+                        <label for="membaca">membaca</label>
+                        <input type="checkbox" name="hoby" 
+                        id="hoby"
+                        value="memancing">
+                        <label for="memancing">memancing</label>
+                     </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="sumbit" name="btnsimpan">simpan</button>  
+                        <button type="reset" name="btnbatal">batal</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
